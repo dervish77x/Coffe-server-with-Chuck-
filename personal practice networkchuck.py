@@ -3,7 +3,7 @@
 name = input("What is your name? ")
 
 #this is for Ben
-if name == "Ben" or name == "Patricia":
+if name == "Ben" or name == "Patrick":
     evil_status = input("Are you evil?\n")
     good_deeds = int(input("How many good deeds have you done today?\n"))
     if evil_status == "Yes" and good_deeds < 4:
@@ -120,3 +120,4 @@ print(data)"""
 
 
 print("print", "low")
+
